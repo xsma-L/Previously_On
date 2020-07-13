@@ -15,7 +15,7 @@ export class Connexion extends Component {
         domain: 'www.betaseries.com/',
         // Tu mets ton code client que l'api t'as fourni 
         clientID: '1130fe9fd334',
-        // Tu dois mettre une url de redirection, l'utilisateur sera auomatiquement rediriger sur cette page        apres son authentification pour mon cas c'est le fichier home.js donc je mets son url. 
+// Tu dois mettre une url de redirection, l'utilisateur sera auomatiquement rediriger sur cette page apres son authentification pour mon cas c'est le fichier home.js donc je mets son url. 
         redirectUri: 'http://localhost:3000/Previously_On/home',
         //  Tu met le type de reponse que tu attends
         responseType: 'id_token',
