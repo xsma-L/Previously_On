@@ -1,0 +1,61 @@
+.container2 {
+  width: 70%;
+  margin: 0 auto;
+  color: white;
+}
+
+.container2 .banner {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.genre {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.genre p {
+  margin-right: 3px;
+  padding: 14px 16px;
+  font-size: 17px;
+  background-color: #2196F3;
+}
+
+.duration {
+  font-size: 17px;
+}
+
+.season {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.season p {
+  margin-right: 3px;
+  padding: 14px 16px;
+  font-size: 17px;
+  background-color: #e9e9e9;
+  color: black;
+}
+
+.season p:hover {
+  cursor: pointer;
+}
+
+.group {
+  display: flex;
+}
+
+.group .episode {
+  margin-right: 15px;
+  background-color: #2196F3;
+  color: white;
+}
+
+.checked {
+  color: orange;
+}
+
+.note {
+  font-size: 17px;
+}

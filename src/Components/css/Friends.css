@@ -1,0 +1,37 @@
+body{
+    height: 1vh;
+}
+
+.user_search{
+    margin-left: 40%;
+    margin-top: 5%;
+    color: white;
+}
+
+.friends_tab{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    /* background-color: #2196F3; */
+    text-align: center;
+    margin-top: 10%;
+}
+
+.friends_blocked{
+    color: white;
+}
+
+.modal{
+    color: black;
+}
+
+
+.friends_tab a{
+    text-decoration: none;
+    color: black;
+}
+
+/* .friends_menu{
+    display: flex;
+    justify-content: space-between;
+} */

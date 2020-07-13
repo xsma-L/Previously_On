@@ -1,0 +1,140 @@
+body {
+  background-image: url('https://www.hubler.fr/39/noir-mat.jpg');
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+.choice {
+  margin: 0 auto;
+  width: 170px;
+}
+
+.choice button {
+  padding: 6px 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.choice button:hover:not(.active-show) {
+  background: #ccc;
+}
+
+.choice .active-show {
+  background-color: #2196F3;
+  color: white;
+}
+
+.article_hide {
+  display: none;
+}
+
+.article_movies {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article_series {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.single_article {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 17px;
+  color: white;
+}
+
+.single_article img {
+  cursor: pointer;
+}
+
+.single_article p {
+  cursor: pointer;
+}
+
+.single_article p:hover {
+  text-decoration: underline;
+}
+
+.single_article a {
+  color: white;
+  text-decoration: none;
+}
+
+.single_article button {
+  padding: 6px 10px;
+  border-radius: 0px;
+  border: none;
+  font-size: 17px;
+  background-color: #e9e9e9;
+  color: black;
+}
+
+.single_article button:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+}
