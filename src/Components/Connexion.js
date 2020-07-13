@@ -3,7 +3,6 @@ import React, {Component, Fragment} from 'react';
 import { Link } from "react-router-dom";
 // Tu dois faire : npm install --save auth0-js
 import auth0 from 'auth0-js';
-// import axios from "axios";
 
 export class Connexion extends Component {
   // Tu crée la connexion dans le construct 
